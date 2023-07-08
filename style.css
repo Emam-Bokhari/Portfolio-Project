@@ -43,3 +43,44 @@ span{
     color:white;
 }
 /* Nav-bar end */
+/* Header start */
+.header{
+    background: #FFF8F3;
+    width:100%;
+    background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left,bottom right;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px 0px 226px;
+}
+.txt h3{
+    color: #474747;
+    font-size: 38px;
+    font-weight: 600;
+}
+.txt h1{
+    color: var #181818;
+    font-size: 78px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.txt p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.txt .btn{
+    margin-right:20px;
+}
+.txt .btn-contact{
+     background: #FFF8F3;
+     border-radius: 5px;
+     border: 1px solid #FD6E0A;
+    color:#FD6E0A;
+}
+/* Header End */
